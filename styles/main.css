@@ -1,0 +1,164 @@
+html,body{
+	margin:0 0 0 0px;
+	padding:0 0 0 0px;
+	font-family: "微软雅黑";
+	width:100%;
+	height:100%;
+	font-size:14px;
+}
+div{
+	margin:0 0 0 0px;
+	padding:0 0 0 0px;
+}
+div .headBar{
+	width:100%;	
+	height:90px;
+}
+div .headTop{
+   	width:100%;	
+	height:30px;
+	background-color:#000000;
+	vertical-align: bottom;
+}
+div .headMain{
+	width:100%;
+	height:60px;
+	margin:0px;
+	padding-top:5px;
+	background-color:#DEDEDE;
+}
+div .right{
+	color:white;
+	float:right;
+	vertical-align: bottom;
+	margin-right:10px;
+	margin-top:5px;
+}
+div .right a:link{
+	color:white;
+	text-decoration:none; 
+}
+div .right a:link{
+	color:white;
+	text-decoration:none; 
+}
+div .right a:visited{
+	color:white;
+	text-decoration:none; 
+}
+div .right a:hover{
+	color:white;
+	text-decoration:underline; 
+}
+div .logo{
+	font-family:"黑体";
+	font-size:30px;
+	font-weight:700;
+	color:#333399;
+	margin-left:10px;
+}
+div.mainContainer{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:90px;
+	bottom:0px;
+}
+div .tocContainer{
+	width:300px;
+	height:100%;
+	overflow:hidden;
+	float:left;
+}
+div .mapContainer{
+	margin-left:300px;
+	width:auto;
+	height:100%;
+}
+div .tabControl{
+	width:100%;
+	height:30px;
+}
+div .tab{
+	width:149px;
+	height:30px;
+	//text-align:center;
+	float:left;
+	border-right:1px solid #000000;
+	background:#b5bbbb;
+	/*
+	background: -moz-linear-gradient(top, #b5bbbb, #FFFFFF); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #b5bbbb), color-stop(1, #FFFFFF)); 
+	background: -ms-linear-gradient(top, #b5bbbb, #FFFFFF);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b5bbbb', endColorstr='#FFFFFF', GradientType='0'); 
+	background: linear-gradient(top, #b5bbbb, #FFFFFF);
+	*/
+	font-size:15px;
+	padding:5px 0px 0px 0px;
+	cursor: pointer;
+}
+div .tabContent{
+	width:100%;
+	height:100px;
+	padding-top:10px;
+	padding-left:10px;
+    vertical-align:middle;
+}
+div .rsBar{
+	width:300px;
+	height:30px;
+	padding:5px 0px 0px 0px;
+	font-size:15px;
+	border-right:1px solid #000000;
+	background:#b5bbbb;
+	/*
+	background: -moz-linear-gradient(top, #b5bbbb, #FFFFFF); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #b5bbbb), color-stop(1, #FFFFFF)); 
+	background: -ms-linear-gradient(top, #b5bbbb, #FFFFFF);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b5bbbb', endColorstr='#FFFFFF', GradientType='0'); 
+	background: linear-gradient(top, #b5bbbb, #FFFFFF);
+	*/
+}
+
+div#map{
+	width:100%;
+	height:100%;
+}
+div .rsContent{
+	width:300px;
+	height:520px;
+	overflow-y:scroll;
+}
+
+div#videoPlayer{
+  	background-color:#4b6c9e;
+  	width:610px;
+  	height:320px;
+  	border:#ccc solid 1px;
+  	z-index:9999;
+	position:absolute;
+	border-radius:15px;
+	left: 200px;
+	top:200px;
+    display:none;
+ }
+ 
+ div#videoTitle{
+ 	background-color:#4b6c9e; 
+ 	width:480px;
+ 	height:25px;
+ 	border-radius:15px 15px 0px 0px;
+ 	float: right;
+ }
+
+div#videoCore{
+	float: left;
+  	width:480px;
+  	height:320px;
+}
+
+div#measureControls{
+	width: 120px;
+	height:300px;
+	float: right;
+}
